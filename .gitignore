@@ -1,0 +1,42 @@
+# ==== 系统与临时文件 ====
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+*.tmp
+
+# ==== IDE / 编辑器配置 ====
+.idea/
+.vscode/
+*.code-workspace
+
+# ==== 编译与构建产物 ====
+bin/
+obj/
+build/
+dist/
+*.o
+*.obj
+*.class
+*.exe
+
+# ==== 日志与缓存 ====
+*.log
+.cache/
+logs/
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ==== Node.js ====
+node_modules/
+
+# ==== 压缩包 / 临时下载 ====
+*.zip
+*.rar
+*.7z
